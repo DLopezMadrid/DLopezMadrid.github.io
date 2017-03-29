@@ -4,7 +4,7 @@ $(function () {
 
     // Get repositories from the GitHub API.
     if ($('#projects').length) {
-          $.getJSON('https://api.github.com/users/jnrbsn/repos?callback=?', function (repos) {
+          $.getJSON('https://api.github.com/users/dlopezmadrid/repos?callback=?', function (repos) {
             var i, repoCount = repos.data.length, now = Date.now(),
                 projectsActive = document.getElementById('projects-active'),
                 projectsOlder = document.getElementById('projects-older'),
