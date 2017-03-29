@@ -336,7 +336,7 @@ a.creative-commons:hover {
        only screen and (min--moz-device-pixel-ratio: 1.5),
        only screen and (min-resolution: '144dpi') {
     .gravatar {
-        background-image: url("./assets/img/main_pic.jpg");
+        background-image: url("./../img/main_pic.jpg");
 
     }
 }
