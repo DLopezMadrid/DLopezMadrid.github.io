@@ -225,3 +225,21 @@ body {
 	margin:0;
 	color:#fff
 }
+.gravatar {
+    background: url("http://linkedin.com/daniel-lopez-madrid") no-repeat;
+    background-size: 200px 200px;
+    border: 1px solid #ccc;
+    border-radius: 100%;
+    display: block;
+    height: 200px;
+    margin: 0 auto 50px;
+    width: 200px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min--moz-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: '144dpi') {
+    .gravatar {
+        background-image: url("./../img/main_pic.jpg");
+
+    }
+}
