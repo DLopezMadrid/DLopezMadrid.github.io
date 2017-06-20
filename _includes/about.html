@@ -1,22 +1,23 @@
 <div class="container">
   <div class="user-details">
     <h3> My Expertise </h3>
-    <p> {{site.user_description}} </p>
-    <p> •	As this is an ever evolving field, I am also continuously learning new things. For example, at the moment I am part of one of the first cohorts of the Udacity Self Driving Car Nanodegree, where I am learning about advanced topics like machine learning, sensor fusion, and path planning.</p>
-    <p> •	Before joining JLR as part of their graduate scheme, I did my MSc at University of Manchester on Advanced Control and Systems Engineering. Before this, I started my BSc in Industrial Electronics and Automation Engineering at UC3M in Spain to later move to the USA and finish it at UCLA.</p>
-    <p> •	During my university years I co-founded Printie, a 3D printing marketplace where anyone could upload and sell/buy quality 3D printable designs </p>
+    <p> {{site.user_description}}
+    •	As this is an ever evolving field, I am also continuously learning new things. For example, at the moment I am part of one of the first cohorts of the Udacity Self Driving Car Nanodegree, where I am learning about advanced topics like machine learning, sensor fusion, and path planning.
+    •	Before joining JLR as part of their graduate scheme, I did my MSc at University of Manchester on Advanced Control and Systems Engineering. Before this, I started my BSc in Industrial Electronics and Automation Engineering at UC3M in Spain to later move to the USA and finish it at UCLA.
+    •	During my university years I co-founded Printie, a 3D printing marketplace where anyone could upload and sell/buy quality 3D printable designs </p>
   </div>
   <div class="row user">
     <div class="four columns">
-      <h4>Design</h4>
-      <i class="devicon-html5-plain-wordmark"></i>
-      <i class="devicon-bootstrap-plain-wordmark colored"></i>
-      <i class="devicon-sass-original colored"></i>
-      <p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
-        Vinyl XOXO lumbersexual</p>
+      <h4>Sensing</h4>
+      <img alt="camera" src="{{ "/assets/img/cmos_cam.jpg" | prepend: site.baseurl }}" />
+      <img alt="radar" src="{{ "/assets/img/radar.jpg" | prepend: site.baseurl }}" />
+      <img alt="lidar" src="{{ "/assets/img/lidar.jpg" | prepend: site.baseurl }}" />
+      <p>Sensors are the eyes and ears of the self driving cars. We will need a full 360 degree coverage with each one of the main sensor technologies.
+        Sensor fusion becomes more important than ever and an essential part to achieve autonomous driving.
+      </p>
     </div>
     <div class="four columns">
-      <h4>Code</h4>
+      <h4>Mapping</h4>
       <i class="devicon-javascript-plain colored"></i>
       <i class="devicon-react-original-wordmark colored"></i>
       <i class="devicon-nodejs-plain-wordmark"></i>
@@ -24,7 +25,7 @@
         Vinyl XOXO lumbersexual</p>
     </div>
     <div class="four columns">
-      <h4>Tools</h4>
+      <h4>Driving policy</h4>
       <i class="devicon-git-plain"></i>
       <i class="devicon-gulp-plain colored"></i>
       <i class="devicon-atom-original-wordmark"></i>
